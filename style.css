@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  transition: background-color 0.5s ease, color 0.2s ease;
+  transition: background-color 0.5s ease;
 }
 
 .calculator {
@@ -54,8 +54,14 @@ td {
   border-radius: 50px;
   width: 25%;
 }
+td:hover {
+  background-color: #26fcd5;
+}
 .blue {
   color: #26fcd5;
+}
+.blue:hover {
+  color: #d76061;
 }
 .red {
   color: #d76061;
@@ -67,6 +73,10 @@ td {
   border: none;
   border-radius: 20px;
   width: 90px;
+}
+.btn:hover {
+  background-color: #26fcd5;
+  color: #d76061;
 }
 /* LIGHT MODE */
 
