@@ -23,8 +23,8 @@ for (const td of listOfTd) {
             inputDisplay.textContent = ""
             result.textContent = "0"
         }
-        else if(td.classList.contains("percent")){
-            //DONT KNOW
+        else if(td.classList.contains("backspace")){
+            inputDisplay.textContent = inputDisplay.textContent.substring(0, inputDisplay.textContent.length - 1);
         }
         else if(td.classList.contains("calculate")){
             function computeResult(str){
