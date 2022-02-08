@@ -7,6 +7,7 @@ Calculator ,made for mobile but works also on Desktop.  Can toggle between Light
 ---
 
 ## Result
+
 ![Screenshot](darkmode.jpg "darkmode")
 
 ![Screenshot](lightmode.jpg "lightmode")
