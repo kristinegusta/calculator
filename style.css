@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: background-color 0.5s ease;
+}
+
+.calculator {
+  width: 100vw;
+  height: 100vh;
+  background-color: #22252d;
+  overflow: hidden;
+}
+.btn-container {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-container {
+  width: 100%;
+  height: 20%;
+  color: white;
+  font-size: 2rem;
+  position: relative;
+}
+p {
+  right: 17px;
+  bottom: 0;
+  position: absolute;
+}
+.result {
+  width: 100%;
+  height: 10%;
+  text-align: end;
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+  padding-right: 1rem;
+}
+table {
+  width: 100%;
+  height: 60%;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #292d36;
+  border-radius: 30px;
+  color: white;
+}
+td {
+  background-color: #272b33;
+  border-radius: 50px;
+  width: 25%;
+}
+.blue {
+  color: #26fcd5;
+}
+.red {
+  color: #d76061;
+}
+.btn {
+  font-size: 2rem;
+  background-color: #292d36;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 90px;
+}
+/* LIGHT MODE */
+
+.calculator-light {
+  background-color: #ffffff;
+}
+.btn-light {
+  background-color: #f9f9f9;
+  color: #282c35;
+}
+.result-light {
+  color: #282c35;
+}
+.input-light {
+  color: #282c35;
+}
+.table-light {
+  background-color: #f9f9f9;
+  color: #282c35;
+}
+.td-light {
+  background-color: #f7f3f3;
+}
