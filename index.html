@@ -21,51 +21,55 @@
     />
   </head>
   <body>
-    <!-- <div class="body-container"> -->
-    <div class="calculator">
-      <div class="btn-container">
-        <button type="button" class="btn">
-          <i class="fas fa-cloud-sun"></i>
-        </button>
+    <div class="body-container">
+      <div class="calculator">
+        <div class="btn-container">
+          <button type="button" class="btn">
+            <i class="fas fa-cloud-sun"></i>
+          </button>
+        </div>
+        <div class="input-container">
+          <p></p>
+        </div>
+        <div class="result">0</div>
+        <table>
+          <tr>
+            <td class="blue">(</td>
+            <td class="blue">)</td>
+            <td class="blue backspace"><i class="fas fa-backspace"></i></td>
+            <td class="red">/</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td class="red">*</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td class="red">-</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td class="red">+</td>
+          </tr>
+          <tr>
+            <td class="C">C</td>
+            <td>0</td>
+            <td>.</td>
+            <td class="red calculate">=</td>
+          </tr>
+        </table>
       </div>
-      <div class="input-container">
-        <p></p>
+      <div class="history">
+        <h1>Action log</h1>
+        <ul></ul>
       </div>
-      <div class="result">0</div>
-      <table>
-        <tr>
-          <td class="blue">(</td>
-          <td class="blue">)</td>
-          <td class="blue backspace"><i class="fas fa-backspace"></i></td>
-          <td class="red">/</td>
-        </tr>
-        <tr>
-          <td>7</td>
-          <td>8</td>
-          <td>9</td>
-          <td class="red">*</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>5</td>
-          <td>6</td>
-          <td class="red">-</td>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td>2</td>
-          <td>3</td>
-          <td class="red">+</td>
-        </tr>
-        <tr>
-          <td class="C">C</td>
-          <td>0</td>
-          <td>.</td>
-          <td class="red calculate">=</td>
-        </tr>
-      </table>
     </div>
-    <!-- </div> -->
     <script src="script.js"></script>
   </body>
 </html>
