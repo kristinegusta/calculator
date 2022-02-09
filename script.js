@@ -1,11 +1,12 @@
-//Give an event listener to the button. toggle light class  on click
+
 const btn = document.querySelector(".btn")
 const listOfTd = document.querySelectorAll("td")
 const inputDisplay = document.querySelector("p")
 const result = document.querySelector(".result")
 const ul = document.querySelector("ul")
 
-//quicker way for this ???
+//quicker way for this than giving classes to all little components???
+//Give an event listener to the button. toggle light class  on click
 btn.addEventListener('click',(event) => {
 document.querySelector(".calculator").classList.toggle("calculator-light")
 document.querySelectorAll(".btn").forEach(element => {
@@ -23,14 +24,13 @@ document.querySelector(".history").classList.toggle("history-light")
 document.querySelector("h1").classList.toggle("h1-light")
 document.querySelector("ul").classList.toggle("ul-light")
 })
-//Add event listener to the trash button to clear the list 
+//Add event listener to the trash button to clear the history list 
 const clearListBtn = document.querySelector(".trash")
 clearListBtn.addEventListener('click', (event) => {
     ul.innerHTML = ""
 })
 //Give event listeners to the TD 
-//Could rewrite it to switch
-
+//Could rewrite it to switch?
 for (const td of listOfTd) {
     td.addEventListener('click',(event) => {
         if(td.classList.contains("C")){
@@ -78,8 +78,7 @@ for (const td of listOfTd) {
                 inputDisplay.textContent = ""
                 result.textContent = ""
             }
-                inputDisplay.textContent = inputDisplay.textContent + td.textContent
-            
+                inputDisplay.textContent = inputDisplay.textContent + td.textContent  
         }
     })
 }
