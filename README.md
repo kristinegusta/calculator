@@ -2,11 +2,18 @@
 
 ---
 
-Calculator ,made for mobile but works also on Desktop.  Can toggle between Light and Dark Mode
+Basic Calculator, can do basic math,can toggle between Light and Dark Mode. Resposnive design.  Tracks last 5 actions
+
+## Future tasks
+
+- Add some more complex math buttons
+- Unit converters
 
 ---
 
 ## Result
+
+[Github Pages](https://kristinegusta.github.io/calculator/)
 
 ![Screenshot](darkmode.JPG "darkmode")
 
