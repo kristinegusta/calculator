@@ -105,36 +105,30 @@ ul {
   height: 5%;
   text-align: end;
 }
+.trash {
+  font-size: 1em;
+  width: 50px;
+  margin-right: 1em;
+}
 /* LIGHT MODE */
 
-.calculator-light {
+.calculator-light,
+.history-light {
   background-color: #ffffff;
 }
-.btn-light {
-  background-color: #f9f9f9;
-  color: #282c35;
-}
-.result-light {
-  color: #282c35;
-}
-.input-light {
-  color: #282c35;
-}
+.btn-light,
 .table-light {
   background-color: #f9f9f9;
   color: #282c35;
 }
-.td-light {
-  background-color: #f7f3f3;
-}
-.history-light {
-  background-color: white;
-}
-.h1-light {
-  color: #282c35;
-}
+.result-light,
+.input-light,
+.h1-light,
 .ul-light {
   color: #282c35;
+}
+.td-light {
+  background-color: #f7f3f3;
 }
 
 /* media query for mobile */
