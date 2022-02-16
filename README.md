@@ -15,6 +15,6 @@ Basic Calculator, can do basic math,can toggle between Light and Dark Mode. Resp
 
 [Github Pages](https://kristinegusta.github.io/calculator/)
 
-![Screenshot](darkmode.JPG "darkmode")
+![Screenshot](./images/darkmode.JPG "darkmode")
 
-![Screenshot](lightmode.JPG "lightmode")
+![Screenshot](./images/lightmode.JPG "lightmode")
